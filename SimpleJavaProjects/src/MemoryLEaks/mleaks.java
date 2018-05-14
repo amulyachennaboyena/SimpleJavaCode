@@ -24,15 +24,19 @@ public class mleaks {
 	      return result;
 	   }
 	   public static void main(String[] args) {
-	      Scanner sc = new Scanner(System.in);
+	      @SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
 	      int i = 0;
 		   
 		   mleaks calc = new mleaks();
-	      while (true) {
+	      for(int j = 0;j<6;i++) {
 	    	  
 	         System.out.println("Enter a number between 1 and 100");
+	         
 	     i = sc.nextInt();
+	System.out.println(calc.square(i));
 	   }
+	      
 	
 
 }

@@ -29,7 +29,7 @@ public class mleaks {
 	      int i = 0;
 		   
 		   mleaks calc = new mleaks();
-	      for(int j = 0;j<6;i++) {
+	      for(int j = 0;j<6;j++) {
 	    	  
 	         System.out.println("Enter a number between 1 and 100");
 	         

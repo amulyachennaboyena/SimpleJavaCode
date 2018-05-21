@@ -6,7 +6,7 @@ class Gfg
     //code
     public void x()
     {
-        System.out.println("GeeksforGeeks");
+        System.out.println("Amulya");
     }
 }
  

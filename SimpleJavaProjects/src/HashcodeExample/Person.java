@@ -44,7 +44,15 @@ public class Person
       return true;
    }
 
-   @Override
+   public String getLastName() {
+	return lastName;
+}
+
+public String getFirstName() {
+	return firstName;
+}
+
+@Override
    public String toString()
    {
       return this.firstName + " " + this.lastName;

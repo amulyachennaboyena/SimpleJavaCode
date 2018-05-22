@@ -22,6 +22,8 @@ public class Main
          throw new MyException("GeeksGeeks");
      }
      catch (MyException ex)
+     
+     
      {
          System.out.println("Caught");
 

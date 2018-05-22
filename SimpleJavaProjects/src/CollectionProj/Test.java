@@ -13,7 +13,7 @@ public class Test {
         names.add(null);
         System.out.println(names.contains("hihihi"));
         System.out.println(names.getClass().getConstructors());
-        
+        System.out.println("hi");
         
         for(String str:names) {
         	System.out.println(str);

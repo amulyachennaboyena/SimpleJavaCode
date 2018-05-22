@@ -28,6 +28,10 @@ public class mleaks {
 		Scanner sc = new Scanner(System.in);
 	      int i = 0;
 		   
+	      
+	      
+	      
+	      
 		   mleaks calc = new mleaks();
 	      for(int j = 0;j<6;j++) {
 	    	  

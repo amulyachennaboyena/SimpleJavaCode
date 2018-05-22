@@ -26,6 +26,8 @@ public float getPrice() {
 public void setPrice(float price) {
 	this.price = price;
 }
+
+
 @Override
 public int hashCode() {
 	final int prime = 31;

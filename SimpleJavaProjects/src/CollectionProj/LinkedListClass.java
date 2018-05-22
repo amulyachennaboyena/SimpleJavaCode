@@ -14,7 +14,9 @@ names.add("C");
 names.add("D");
 names.add("E");
 LinkedList<String> names1 = new LinkedList<>();
+
 names1.add("A");
+names1.add("B");names1.add("A");
 names1.add("B");
 names1.add("C");
 names1.add("D");

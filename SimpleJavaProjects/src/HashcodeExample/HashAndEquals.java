@@ -20,6 +20,8 @@ public class HashAndEquals
    private final Person person4 = new Person("Rubble", "Barney");
 
    public void displayContents()
+   
+   
    {
       printHeader("THE CONTENTS OF THE OBJECTS");
       out.println("Person 1: " + person1);
